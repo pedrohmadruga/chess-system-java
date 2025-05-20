@@ -62,7 +62,7 @@ public class UI {
 		for(int i=0; i < pieces.length; i++) {
 			System.out.print((8 - i) + " ");
 			for (int j=0; j <pieces.length; j++) {
-				printPiece(pieces[i][j], possibleMoves[i][jc]);
+				printPiece(pieces[i][j], possibleMoves[i][j]);
 			}
 			System.out.println();
 		}
