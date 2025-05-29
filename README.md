@@ -9,10 +9,15 @@
 ├── src/
 
 │   ├── application/
+
 │   ├── boardgame/
+
 │   ├── chess/
+
 |   |   ├── pieces/
 
 The project is made with layer architecture. The application package contains the Program and the UI classes, which are responsible for loading the board and the pieces.
+
 The boardgame package has the basic class related to the board, such as Board, Piece and Position
+
 The chess package is where the logic behind the actual game is. It contains all the pieces and its possible moves and the methods required to do chess related operations.
