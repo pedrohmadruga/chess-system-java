@@ -7,6 +7,7 @@
 ## 📁 Project Structure
 
 ├── src/
+
 │   ├── application/
 │   ├── boardgame/
 │   ├── chess/
